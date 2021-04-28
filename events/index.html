@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Basics</title>
+</head>
+<body>
+    <h1>Events</h1>
+
+    <!-- Inline events not ideal and should not use -->
+    <p>Inline Event Button, not ideal.</p>
+    <button onclick="alert('YOU CLICKED BUTTON #1!')">Click Me!</button>
+
+    <!-- Setting a property to be a function. The function will be called
+    by the browser once the event happens. -->
+    <p>JavaScript event button. This is a little better because we are writing 
+        the code in javaScript.</p>
+    <button id='v2'>Click Me 2!</button>
+
+    <!-- addEventListener -->
+    <p>addEventListener is better because you can have as many different call backs as you want for one event
+        It is also better because you can pass in other options.</p>
+    <button id='v3'>Click Me 3!</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
